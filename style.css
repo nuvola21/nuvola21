@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    font-family: "Montserrat", sans-serif;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.4s;
+    font-family: "Poppins", sans-serif;
+}
+.nav-item a:hover{
+    color: rgba(52, 78, 65, 1)
+}
+.navbar-brand{
+    height: 50px;
+    width: 90px;
+}
+.search{
+    height: 45px;
+    outline: none;
+    border: 2px solid rgba(52, 78, 65, 1)
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+.btn1{
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgba(52, 78, 65, 1)
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0.4s;    
+}
+.btn1:hover{
+    background-color: rgba(52, 78, 65, 1)
+}
+
+.bi-bag-check{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    transition: all 0.4s;
+}
+.bi-bag-check:hover{
+    color: rgba(52, 78, 65, 1)
+}
+
+.navbar-toggler{
+    font-size: 23px;
+    color: black;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.main{
+    background: url(gambar\ 5.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+}
+
+.main p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.main p:nth-child(2){
+    font-size: 18px;
+    color: rgba(52, 78, 65, 1)
+}
+.mbtn1{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgba(52, 78, 65, 1);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.mbtn1:hover{
+    background-color: rgba(52, 78, 65, 1);
+}
+
+.mbtn2{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    background-color: transparent;
+    color: rgba(52, 78, 65, 1);
+    border: 1px solid rgba(52, 78, 65, 1);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.mbtn2:hover{
+    background-color: rgba(52, 78, 65, 1);
+    border: none;
+    color: white;
+}
+
+.line{
+    height: 6px;
+    width: 30%;
+    background: rgba(52, 78, 65, 1);
+    display: inline-block;
+}
+.about{
+    background: url(gambar\ 7.jpg);
+    background-size: cover;
+    height: 90hv;
+    width: 100%;
+
+}
+.about h1{
+    font-size: 45px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.about p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.about p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+
+.welcome{
+    background: rgba(52, 78, 65, 1);
+}
+
+.line2{
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+}
+
+.welcome h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.welcome .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.welcome i{
+    font-size: 40px;
+    color: rgba(52, 78, 65, 1);
+}
+.welcome h2{
+    font-weight: lighter;
+    padding: 10px 0px;
+
+}
+.product h1{
+    font-size: 45px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.product p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.product p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.star{
+    text-align: end;
+    color: orange;
+}
+.product .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+.product .card-body{
+    border: 1px dashed rgb(175, 172, 172);
+}
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
+.per1{
+    color: rgb(175, 172, 172);
+}
+.btnc{
+    height: 50px;
+    width: 50px;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgba(157, 192, 139, 1);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+.btnc:hover{
+    outline: none;
+    border: 1px solid rgba(52, 78, 65, 1);
+    color: rgba(52, 78, 65, 1);
+    background: transparent;
+    border-radius: 50px;
+}
+.diskon{
+    background-color: rgba(52, 78, 65, 1);
+    color: white;
+}
+.dbtn{
+    height: 50px;
+    width: 65%;
+    outline: none;
+    border: none;
+    color: black;
+    background: white;
+    border-radius: 50px;
+    font-weight: lighter;
+    transition: all 0.4s;
+}
+.dbtn:hover{
+    background-color: wheat;
+}
+.service h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.service p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+}
+.service p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.service i{
+    font-size: 45px;
+}
+.service .card{
+    border-radius: 0;
+    border: none;
+    transition: all o.3s;
+    cursor: pointer;
+}
+.service .card:hover{
+    background-color: rgba(52, 78, 65, 1);
+    color: white;
+}
+.service .card:hover .per1{
+    color: white;
+}
+.seller h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.seller i{
+    color: orange;
+}
+.seller .card{
+    border-radius: 0;
+    border: none;
+}
+.contact{
+    background: url(gambar\ 16.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.contact h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+.contact p{
+    color: black;
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+}
+.contact input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+.contact textarea{
+    height: 100px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+.cbtn{
+    height: 50px;
+    width: 65%;
+    outline: none;
+    border: none;
+    color: black;
+    background: white;
+    border-radius: 50px;
+    font-weight: lighter;
+    transition: all 0.4s;
+}
+.cbtn:hover{
+    background: rgb(175, 172, 172);
+}
+.footer{
+    background: gray;
+}
+.s1{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 9px;
+    margin-left: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.s1:hoverP{
+    background-color: rgba(52, 78, 65, 1);
+    border: none;
+}
+.footer p{
+    color: white;
+}
